@@ -26,7 +26,7 @@ class LogoSvg extends StatelessWidget {
   @override
   Widget build(context) => FutureBuilder<Uint8List>(
         builder: (context, svg) => !svg.hasData || svg.hasError
-            ? const SizedBox.shrink()
+            ? const FlutterLogo()
             : SvgPicture.memory(svg.data!),
       );
 }
