@@ -7,7 +7,7 @@ class Home extends StatelessWidget {
   const Home({super.key});
 
   @override
-  Widget build(context) => const Center(
-        child: Icon(YakfForwardLogo.iconData),
+  Widget build(context) => const Material(
+        child: Center(child: Icon(YakfForwardLogo.iconData)),
       );
 }
