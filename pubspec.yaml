@@ -1,0 +1,23 @@
+name: yakforward_logo
+description: Logo for `yakforward` brand
+version: 0.0.1+0
+homepage: https://www.yakforward.com
+
+environment:
+  sdk: '>=2.17.3 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+
+flutter:
+  assets:
+    - assets/png/
+    - assets/svg/
+  fonts:
+    - family: yakforward
+      fonts:
+        - asset: assets/font/yakforward-logo-font.ttf
