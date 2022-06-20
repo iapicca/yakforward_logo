@@ -1,17 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:yakforward_logo/yakforward_logo.dart';
 
-void main() => runApp(const Home());
+void main() => runApp(const MaterialApp(home: Home()));
 
 class Home extends StatelessWidget {
   const Home({super.key});
 
   @override
-  Widget build(context) => Column(
-        children: [
-          Center(
-            child: Icon(YakfForwardLogo),
-          )
-        ],
+  Widget build(context) => const Center(
+        child: Icon(YakfForwardLogo.iconData),
       );
 }
