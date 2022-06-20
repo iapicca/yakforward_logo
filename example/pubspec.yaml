@@ -1,0 +1,21 @@
+name: example
+description: an example app for `yakforward_logo`
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  yakforward_logo: 
+    git:
+      url: https://github.com/yakforward/yakforward_logo.git
+      ref: master
+      
+dev_dependencies:
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
