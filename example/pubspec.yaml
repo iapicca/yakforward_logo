@@ -9,7 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_svg: ^1.1.0
   yakforward_logo: 
     git:
       url: https://github.com/yakforward/yakforward_logo.git
