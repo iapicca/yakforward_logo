@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 const _fontFamily = 'yakforward';
 const _codepoint = 0xe800;
-const _fontPackage = 'package:yakforward_logo/yakforward_logo.dart';
+const _fontPackage = 'yakforward_logo';
 
 /// `YakforwardLogo` provides access to assets for `yakforward oü`
 abstract class YakforwardLogo {
