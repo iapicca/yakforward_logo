@@ -1,6 +1,6 @@
 name: yakforward_logo
 description: Logo for `yakforward` brand
-version: 0.0.1+0
+version: 1.0.0+0
 homepage: https://www.yakforward.com
 
 environment:
