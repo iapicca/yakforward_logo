@@ -48,4 +48,10 @@ app.*.map.json
 /macos
 /windows
 /linux
+/android/*
+/ios/*
+/web/*
+/macos/*
+/windows/*
+/linux/*
 .metadata
