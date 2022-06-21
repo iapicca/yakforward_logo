@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 const _fontFamily = 'yakforward';
 const _codepoint = 0xe800;
+const _fontPackage = 'package:yakforward_logo/yakforward_logo.dart';
 
 /// `YakforwardLogo` provides access to assets for `yakforward oü`
 abstract class YakforwardLogo {
@@ -13,5 +14,9 @@ abstract class YakforwardLogo {
   // build(context) => Icon(YakforwardLogo.iconData);
   // ```
   // */
-  static const icon = IconData(_codepoint, fontFamily: _fontFamily);
+  static const icon = IconData(
+    _codepoint,
+    fontFamily: _fontFamily,
+    fontPackage: _fontPackage,
+  );
 }
